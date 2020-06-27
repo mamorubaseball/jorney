@@ -19,14 +19,14 @@
     }
     getRandomImage() {
       const images = [
-        "img/1.png", //道頓堀
-        "img/2.png", //ユニバ
-        "img/3.png", //富士急
-        "img/4.png", //大観峰
-        "img/5.png", //角館 武家屋敷通り
-        "img/6.png", //東京ドイツ
-        "img/7.png", //箱根・芦ノ湖 はなをり
-        "img/8.png", //センター北]
+        "1.png", //道頓堀
+        "2.png", //ユニバ
+        "3.png", //富士急
+        "4.png", //大観峰
+        "5.png", //角館 武家屋敷通り
+        "6.png", //東京ドイツ
+        "7.png", //箱根・芦ノ湖 はなをり
+        "8.png", //センター北]
       ];
 
       var n = Math.random();
