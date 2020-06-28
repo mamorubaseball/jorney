@@ -23,14 +23,13 @@
         "img/2.png", //ユニバ
         "img/3.png", //富士急
         "img/4.png", //大観峰
-  
         "img/5.png", //角館 武家屋敷通り
         "img/6.png", //東京ドイツ
         "img/7.png", //箱根・芦ノ湖 はなをり
         "img/8.png", //センター北]
       ];
 
-      var n = Math.random();
+//       var n = Math.random();
       var m = Math.floor(Math.random() * images.length);
       return images[m];
    
@@ -72,7 +71,7 @@
       header.textContent = "旅行行こうよ";
     } else {
       panels.stop();
-      header.textContent = "就活お疲れ様！！";
+      header.textContent = "就活お疲れ様👍";
       firstclick = true;
       spin.textContent = "旅行行こうよ";
     }
