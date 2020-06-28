@@ -31,7 +31,8 @@
 
       var n = Math.random();
       var m = Math.floor(Math.random() * images.length);
-      if (n < 0.5) {
+      return images[m];
+      //if (n < 0.3) {
         return images[3];
       } else {
         return images[m];
