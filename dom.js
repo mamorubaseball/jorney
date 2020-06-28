@@ -33,12 +33,7 @@
       var n = Math.random();
       var m = Math.floor(Math.random() * images.length);
       return images[m];
-      //if (n < 0.3) {
-//         return images[3];
-//       } else {
-//         return images[m];
-//       }
-      // return images[Math.floor(Math.random() * images.length)];
+   
     }
 
     spin() {
