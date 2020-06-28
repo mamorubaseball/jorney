@@ -8,7 +8,7 @@
 
       // このthisはpanelにかかってのか、constructorなのか
       this.img = document.createElement("img");
-      this.img.src = "1.png";
+      this.img.src = "img/2.png";
       // これなんだっけ
       this.timeoutId = undefined;
 
@@ -19,14 +19,14 @@
     }
     getRandomImage() {
       const images = [
-        "https://github.com/mamorubaseball/jorney/blob/master/1.png", //道頓堀
-        "https://github.com/mamorubaseball/jorney/blob/master/2.png", //ユニバ
-        "https://github.com/mamorubaseball/jorney/blob/master/3.png", //富士急
-        "https://github.com/mamorubaseball/jorney/blob/master/4.png", //大観峰
-        "https://github.com/mamorubaseball/jorney/blob/master/5.png", //角館 武家屋敷通り
-        "https://github.com/mamorubaseball/jorney/blob/master/6.png", //東京ドイツ
-        "https://github.com/mamorubaseball/jorney/blob/master/7.png", //箱根・芦ノ湖 はなをり
-        "https://github.com/mamorubaseball/jorney/blob/master/8.png", //センター北]
+        "img/1.png", //道頓堀
+        "img/2.png", //ユニバ
+        "img/3.png", //富士急
+        "img/4.png", //大観峰
+        "img/5.png", //角館 武家屋敷通り
+        "img/6.png", //東京ドイツ
+        "img/7.png", //箱根・芦ノ湖 はなをり
+        "img/8.png", //センター北]
       ];
 
       var n = Math.random();
