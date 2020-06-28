@@ -8,7 +8,7 @@
 
       // このthisはpanelにかかってのか、constructorなのか
       this.img = document.createElement("img");
-      this.img.src = "https://github.com/mamorubaseball/jorney/blob/master/1.png";
+      this.img.src = "1.png";
       // これなんだっけ
       this.timeoutId = undefined;
 
